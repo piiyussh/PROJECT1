@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.radio-group, .checkbox {
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
